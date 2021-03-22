@@ -1,7 +1,7 @@
 {
-  "name": "<project-name>",
-  "author": "Felix Strobel",
-  "description": "<project-description>",
+  "name": "name",
+  "author": "author",
+  "description": "description",
   "main": "public/electron.js",
   "homepage": "./",
   "version": "0.1.0",
@@ -25,7 +25,7 @@
     "start": "concurrently \"cross-env BROWSER=none yarn react-start\" \"wait-on http://localhost:3000 && electron .\""
   },
   "build": {
-    "appId": "<io.felixstrobel.project>"
+    "appId": "com.example"
   },
   "browserslist": {
     "production": [
